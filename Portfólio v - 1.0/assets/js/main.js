@@ -43,3 +43,6 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+
+  // texto digitado
