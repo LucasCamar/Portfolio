@@ -1,0 +1,21 @@
+:root {
+    --letras_verde:  rgb(73, 199, 73);
+    --background_var: #363636;
+
+    --whiter: #fff;
+    --white_1: #F4F9F9;
+
+    --black: #0D0D0D;
+    --gray: #262626;
+    --gray_1: #404040;
+    --gray_2: #595959;
+    --gray_3: #A6A6A6;
+}
+
+* {
+    box-sizing: border-box;
+}
+*, html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
