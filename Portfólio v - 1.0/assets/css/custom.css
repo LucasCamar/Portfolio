@@ -77,12 +77,13 @@
     display: flex;
     background-color: var(--background_var);
     align-items: center;
-    gap: 10px;
 }
 
 .container__about .container {
     align-items: center;
     display: flex;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .about__image__home {
@@ -110,6 +111,7 @@
 .about__description {
     color: var(--letras_verde);
     font-size: 24px;
+    padding-bottom: 20px;
 }
 .about__button__contact {
     margin-top: 10px;
@@ -119,6 +121,7 @@
     background: var(--letras_verde);
     border: none;
     font-size: 20px;
+    
 }
 
 /* Footer */

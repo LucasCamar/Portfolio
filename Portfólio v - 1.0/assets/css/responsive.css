@@ -117,6 +117,10 @@
     .container {
         margin: 0 6px;
     }
+    .container__about .container {
+        flex-direction: column;
+        padding:auto;
+    }
     .about__button__contact {
         width: 100px;
     }
@@ -160,10 +164,6 @@
         height: 150px;
         width: 150px;
         
-    }
-    .container__about .container {
-        flex-direction: column;
-        padding:auto;
     }
     .footer .bottom .copyright i{
         font-size: 13px;
