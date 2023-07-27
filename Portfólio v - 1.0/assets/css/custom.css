@@ -72,6 +72,11 @@
     font-size: 25px;
 }
 
+.home__image {
+    margin-left: -120px;
+    height: 530px;
+}
+
 /* about mim */
 .container__about {
     display: flex;
@@ -105,6 +110,7 @@
 }
 
 .about__home {
+    padding: 8px;
     color: #fff;
     font-size: 45px;
 }
