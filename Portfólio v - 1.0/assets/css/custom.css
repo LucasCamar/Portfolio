@@ -1,0 +1,252 @@
+/* Navbar */
+
+.logo {
+    font-size: 24px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background_var);
+    height: 14vh;
+}
+.nav-list a {
+    font-size: 1.2em;
+    color: #fff;
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+    letter-spacing: 1px;
+    
+}
+
+.menu-responsive {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-responsive div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+.nav-list.active {
+    transform: translateX(0);
+}
+
+/* Fim Navbar */
+
+/* home */
+
+.container {
+    margin: 0 120px;
+}
+
+.container__home {
+    height: 86vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-bottom: 150px;
+    align-items: center;
+    
+}
+.home__title--fontsizeH1 {
+    font-family: 'Itim', cursive;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+.title__span {
+    color: var(--letras_verde);
+}
+
+.home__title--fontsizeH3 {
+    font-size: 25px;
+}
+
+/* about mim */
+.container__about {
+    display: flex;
+    background-color: var(--background_var);
+    align-items: center;
+    gap: 10px;
+}
+
+.container__about .container {
+    align-items: center;
+    display: flex;
+}
+
+.about__image__home {
+    border-radius: 50%;
+    margin: 15px;
+    height: 250px;
+    min-width: 250px;
+    overflow: hidden;
+    background-color: #0077b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about__image {
+    height: 240px;
+    width: 240px;
+}
+
+.about__home {
+    color: #fff;
+    font-size: 45px;
+}
+.about__description {
+    color: var(--letras_verde);
+    font-size: 24px;
+}
+.about__button__contact {
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    background: var(--letras_verde);
+    border: none;
+    font-size: 20px;
+}
+
+/* Footer */
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    gap: 3px;
+}
+.footer__title {
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.footer__title span {
+    color: var(--letras_verde);
+}
+
+.footer__description {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer__social {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    flex-flow: row;
+    border-radius: 50%;
+}
+
+.footer__social i{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    flex-flow: row;
+    border-radius: 50%;
+    color: white;
+}
+
+/* icones footer */
+.footer__social .insta {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    flex-flow: row;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+.footer__social .linkedin {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    flex-flow: row;
+    border-radius: 50%;
+    background-color: #0077b5;
+}
+.footer__social .whats {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    flex-flow: row;
+    border-radius: 50%;
+    background-color: #25D366;
+}
+/* footer bottom */
+.footer .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: 5vh;
+    background-color: var(--background_var);
+    border-top: 1px solid gray;
+    color: #fff;
+}
+
+.footer .bottom .copyright{
+    display: flex;
+    align-items: center;
+}
+
+.footer .bottom .copyright i{
+    font-size: 15px;
+}
+
+.footer .bottom .copyright{
+    font-size: 14px;
+    font-weight: 350;
+    gap: 5px;
+}
+/* Hovers */
+.nav-list a:hover {
+    color: var(--letras_verde);
+    opacity: 0.6;
+}
+.about__button__contact:hover {
+    background-color: var(--background_var);
+    color: #fff;
+    border: 2px solid var(--letras_verde);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer__social a:hover {
+    color: var(--letras_verde);
+    transform: scale(1.2);
+    transition: 0.5s;
+}   

@@ -1,0 +1,14 @@
+:root {
+    --letras_verde:  rgb(73, 199, 73);
+    --background_var: #363636;
+}
+*, html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
